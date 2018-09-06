@@ -75,4 +75,4 @@ sudo apt-get install nginx
 
 3. 部署bp.json
 
-按照https://github.com/eosrio/bp-info-standard的标准创建bp.json，然后将该文件放在官方网站根目录下。
+按照https://github.com/eosrio/bp-info-standard 的标准创建bp.json，然后将该文件放在官方网站根目录下。

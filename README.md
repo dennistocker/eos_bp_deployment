@@ -35,7 +35,7 @@ git checkout mainnet-1.1.6
 cd eos
 ./eosio_build.sh
 
-cd build 
+cd build
 sudo make install
 ```
 
@@ -46,12 +46,12 @@ mkdir -p ~/eosdata/{data,config}
 
 4. 修改配置
 下载本项目中config.init文件，放在~/eosdata/config/目录下，并修改以下配置
-    
+
     * bnet-endpoint： 数据同步端口
     * http-server-address： rpc端口
     * p2p-listen-endpoint： p2p端口
     * agent-name： bp名称
-    * producer-name： eos主网注册成bp的账号（）
+    * producer-name： eos主网注册成bp的账号
     * signature-provider： bp账号的producer key
     * p2p-peer-address：要连接的节点地址
 
